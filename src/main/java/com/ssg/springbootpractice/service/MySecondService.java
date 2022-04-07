@@ -1,9 +1,11 @@
 package com.ssg.springbootpractice.service;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 
-@Component
+//@Component
+@Service
 public class MySecondService implements MyService {
 
     @Override
